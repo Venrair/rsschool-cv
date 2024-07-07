@@ -1,2 +1,2 @@
 # rsschool-cv
-rsschool-cv
+[CV Markdown](https://Venrair.github.io/rsschool-cv/cv)
