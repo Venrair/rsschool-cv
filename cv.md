@@ -41,3 +41,18 @@ function countOfOccures (array, searchElement) {
     return accumulator + occurence;
   },0 );
 }
+```
+## Work Experience:
+7+ years in IT as manual QA engineer. ISTQB certified.
+
+## Education:
+* Francisk Skorina Gomel State University
+  + History department
+
+* IT Step
+  + Manual QA
+
+## Languages:
+* English B2 (7 years of experience working with foreign customers)
+* Russian
+* Belarusian
