@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Uladzislau Baranouski</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="container">
+    <h1 class="user__name">Uladzislau Baranouski</h1>
+    <img class="photo" src="./img/ptoto_cv.jpg" alt="this_is_not_a_real_photo">
+  </header>
+  <main class="container">
+    <div class="container">
+      <hr class="hr">
+      <h2>Contact Info:</h2>
+      <ul class="contact__info">
+        <li>Phone: +995 555 55 55 55</li>
+        <li>Email: sometest@gmail.com</li>
+      </ul>
+    </div>
+    <div class="container">
+      <hr class="hr">
+      <h2 class="about__me">About me:</h2>
+      <pre class="about-me__text">
+  37 years. Originally from Belarus. Currently working as a Senior QA engineer.
+  I took these courses to better understand working with Git, HTML, CSS
+      </pre>
+    </div>
+    <div class="container">
+      <hr class="hr">
+      <h2>Skills:</h2>
+      <ul class="skill__list">
+        <li>Primary Skill:
+          <ul>
+            <li>Manual QA</li>
+          </ul>
+        </li>
+        <li>Programming Languages:
+          <ul>
+            <li>JavaScript</li>
+          </ul>
+        </li>
+        <li>Data Formats:
+          <ul>
+            <li>JSON</li>
+            <li>XML</li>
+          </ul>
+        </li>
+        <li>Tools:
+          <ul>
+            <li>Jira</li>
+            <li>Kibana</li>
+            <li>Kafka</li>
+            <li>Postman</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="container">
+      <hr class="hr">
+      <h2 class="code__example">Code Example:</h2>
+      <pre>
+        <code>
+  try {
+    const numbers = [1, 2, 3, 4, 1];
+    const count = countOfOccures(numbers, 1);
+    console.log(count);
+  } catch (e) {
+    console.log(e);
+  }
+
+  function countOfOccures(array, searchElement) {
+    if (Array.isArray(array) !== true) throw new Error('Some Error');
+    return array.reduce((accumulator, current) =&gt; {
+      const occurence = (current === searchElement) ? 1 : 0;
+      return accumulator + occurence;
+    }, 0);
+  }
+      </code>
+    </pre>
+    </div>
+    <div class="container">
+      <hr class="hr">
+      <h2 class="work__exp">Work Experience:</h2>
+      <p class="work-exp__text">7+ years in IT as manual QA engineer. ISTQB certified.</p>
+    </div>
+    <div class="container">
+      <hr class="hr">
+      <h2 class="education">Education:</h2>
+      <ul class="education__list">
+        <li>Francisk Skorina Gomel State University:
+          <ul>
+            <li>History department</li>
+          </ul>
+        </li>
+        <li>IT Step:
+          <ul>
+            <li>Manual QA</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="container">
+      <hr class="hr">
+      <h2 class="lang">Languages:</h2>
+      <ul class="lang__list">
+        <li>English B2 (7 years of experience working with foreign customers)</li>
+        <li>Russian</li>
+        <li>Belarusian</li>
+      </ul>
+    </div>
+  </main>
+  <footer class="footer">
+    <a class="git__link" href="https://github.com/Venrair">GitHub</a>
+    <p class="year">2024</p>
+    <img class="rs__logo" src="./img/rs_school_js.svg" alt="logo">
+    <a class="rs__link" href="https://rs.school/courses/javascript-ru">RS-School</a>
+  </footer>
+</body>
+</html>
