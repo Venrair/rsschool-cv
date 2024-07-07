@@ -21,3 +21,23 @@ I took these courses to better understand working with Git, HTML, CSS
   + Kafka
   + Postman 
 
+## Code Example:
+```
+try
+{
+const numbers = [1, 2, 3, 4, 1];
+const count = countOfOccures(numbers, 1);
+console.log(count);
+}
+catch(e)
+{
+console.log(e);
+}
+function countOfOccures (array, searchElement) {
+  if (Array.isArray(array) !== true)
+  throw new Error ('Some Error');
+  return array.reduce ((accumulator, current) => {
+    const occurence = (current === searchElement) ? 1 : 0;
+    return accumulator + occurence;
+  },0 );
+}
